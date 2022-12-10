@@ -51,12 +51,12 @@ mod tests {
 10000";
 
     #[test]
-    fn get_most_calories_works() {
+    fn part1_works() {
         assert_eq!(get_n_most_calories(INPUT.lines(), 1), 24_000);
     }
 
     #[test]
-    fn get_3_most_calories_works() {
+    fn part2_works() {
         assert_eq!(get_n_most_calories(INPUT.lines(), 3), 45_000);
     }
 }
