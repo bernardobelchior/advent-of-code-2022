@@ -32,7 +32,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use crate::{get_n_most_calories};
+    use crate::get_n_most_calories;
 
     const INPUT: &'static str = r"
 1000
